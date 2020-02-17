@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# MTML
+# roslaunch dvrk_robot dvrk_arm_rviz.launch arm:=MTML \
+# config:=/path/to/ros/workspace/src/cisst-saw/sawIntuitiveResearchKit/share/console-MTML_KIN_SIMULATED.json
+
+# PSM1 
+#roslaunch dvrk_robot dvrk_arm_rviz.launch arm:=PSM1 \
+#config:=/home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/console-PSM1_KIN_SIMULATED.json
+
+# ECM
+#roslaunch dvrk_robot dvrk_arm_rviz.launch arm:=ECM \
+#config:=/home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/console-ECM_KIN_SIMULATED.json
+
+# DUAL ARM
+roslaunch dvrk_robot dvrk_dual_arm_rviz.launch arm1:=PSM1 arm2:=PSM2 \
+config:=/home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM1-PSM2_KIN_SIMULATED.json
+
+# -------------------------------
+# 1 real arm and 1 simulated arm
+# -------------------------------
+#roslaunch dvrk_robot dvrk_master_slave_rviz.launch master:=MTMR slave:=PSM1 \
+#config:=/home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/jhu-dVRK/console-MTMR-PSM1_KIN_SIMULATED-#Teleop.json
+
+#./jhu-dVRK/console-MTMR-PSM1_KIN_SIMULATED-Teleop.json
