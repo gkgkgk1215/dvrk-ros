@@ -17,7 +17,7 @@
       <arg name="gui" default="false" />
       <arg name="rate" default="20" />
       
-      <param name="robot_description" command="rosrun xacro xacro.py $(arg arm1_model) prefix:=$(arg arm1)_"/>
+      <param name="robot_description" command="rosrun xacro xacro $(arg arm1_model) prefix:=$(arg arm1)_"/>
       <param name="use_gui" value="$(arg gui)"/>
       <param name="rate" value="$(arg rate)"/>
       
@@ -28,14 +28,14 @@
       </rosparam>
 
       <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
-      <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+      <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
   </group>
 
   <group ns="/dvrk/$(arg arm2)">
       <arg name="gui" default="false" />
       <arg name="rate" default="20" />
       
-      <param name="robot_description" command="rosrun xacro xacro.py $(arg arm2_model) prefix:=$(arg arm2)_"/>
+      <param name="robot_description" command="rosrun xacro xacro $(arg arm2_model) prefix:=$(arg arm2)_"/>
       <param name="use_gui" value="$(arg gui)"/>
       <param name="rate" value="$(arg rate)"/>
       
@@ -46,7 +46,7 @@
       </rosparam>
 
       <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
-      <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+      <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
   </group>
 
   <node name="rviz" pkg="rviz" type="rviz"

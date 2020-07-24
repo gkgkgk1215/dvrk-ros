@@ -6,7 +6,7 @@
 
   <link name="world"/>
   <xacro:psm_sca
-      prefix="$(arg prefix)"
+      prefix="PSM2_"
       parent_link="world"
       xyz="0.18 0.0 0.0" rpy="0.0 0.0 0.0"/>
   
