@@ -7,6 +7,6 @@
 
 #rosrun dvrk_robot dvrk_console_json -j /home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM2-only.json -i /home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json
 
-rosrun dvrk_robot dvrk_console_json -j /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-MTMR-PSM1-MTML-PSM2-Teleop.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM1.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json
+#rosrun dvrk_robot dvrk_console_json -j /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-MTMR-PSM1-MTML-PSM2-Teleop.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM1.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json
 
-# rosrun dvrk_robot dvrk_console_json -j /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-MTMR-PSM1-MTML-PSM2-Teleop-long.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM1.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json
+rosrun dvrk_robot dvrk_console_json -j /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-MTMR-PSM1-MTML-PSM2-Teleop-long.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM1.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json

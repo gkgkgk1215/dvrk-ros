@@ -14,7 +14,7 @@
 
 # DUAL ARM
 roslaunch dvrk_robot dvrk_dual_arm_rviz.launch arm1:=PSM1 arm2:=PSM2 \
-config:=/home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM1-PSM2_KIN_SIMULATED.json
+config:=/home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM1-PSM2_KIN_SIMULATED.json
 
 # -------------------------------
 # 1 real arm and 1 simulated arm

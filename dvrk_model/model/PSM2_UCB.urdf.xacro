@@ -8,6 +8,5 @@
   <xacro:psm_sca
       prefix="PSM2_"
       parent_link="world"
-      xyz="0.18 0.0 0.0" rpy="0.0 0.0 0.0"/>
-  
+      xyz="0.145 0.0 0.0" rpy="0.0 0.0 0.0"/>
 </robot>
