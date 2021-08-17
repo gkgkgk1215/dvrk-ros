@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#rosbag record /dvrk/PSM1/state_joint_current /dvrk/PSM1/state_jaw_current /dvrk/PSM2/state_joint_current /dvrk/PSM2/state_jaw_current /endoscope/left/image_rect/compressed /endoscope/right/image_rect/compressed
+
+#rosbag record /endoscope/left/image_color/compressed -e "/dvrk/(.*)"
+#rosbag record /dvrk/PSM1/state_joint_current /dvrk/PSM2/state_joint_current /endoscope/left/image_color/compressed
+rosbag record -e "/dvrk/(.*)" -e "/endoscope/(left|right)/img_color/compressed"
+#/endoscope/right/image_color/compressed

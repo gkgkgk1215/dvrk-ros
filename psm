@@ -1,12 +1,7 @@
 #!/bin/bash
-# rosrun dvrk_robot dvrk_console_json -j /home/davinci0/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/calibration_files/console-PSM1-only.json
+roslaunch dvrk_robot dvrk_dual_arm_rviz.launch arm1:=PSM1 arm2:=PSM2 \
+config:=/home/minho/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM1-PSM2.json
 
-# rosrun dvrk_robot dvrk_console_json -j /home/davinci0/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/calibration_files/console-PSM1-PSM2.json
 
-# rosrun dvrk_robot dvrk_console_json -j /home/davinci0/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/calibration_files/console-MTML-PSM1-PSM2-Teleop.json
-
-#rosrun dvrk_robot dvrk_console_json -j /home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM2-only.json -i /home/hwangmh/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json
-
+# Add new rostopic
 #rosrun dvrk_robot dvrk_console_json -j /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM1-PSM2.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM1.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json
-
-rosrun dvrk_robot dvrk_console_json -j /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-PSM1-PSM2-long.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM1.json -i /home/davinci/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ros-io-PSM2.json

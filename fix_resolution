@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#xrandr --output DP-0 --mode 1920x1200
+#xrandr --output DP-2 --mode 640x480
+#xrandr --output DP-4 --mode 640x480
+#xrandr --output HDMI-0 --mode 720x480
+
+xrandr --output DP-1 --mode 1920x1200
+xrandr --output DVI-I-0 --mode 640x480
+xrandr --output HDMI-0 --mode 640x480
+#xrandr --output DVI-D-0 --mode 1920x1200
+#xrandr --output HDMI-0 --mode 640x480
+

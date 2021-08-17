@@ -1,0 +1,3 @@
+#!/bin/bash
+roslaunch dvrk_robot dvrk_dual_arm_rviz.launch arm1:=PSM1 arm2:=PSM2 \
+config:=/home/minho/catkin_ws/src/cisst-saw/sawIntuitiveResearchKit/share/ucb-dVRK/console-MTMR-PSM1-Teleop-PSM2-Script.json
